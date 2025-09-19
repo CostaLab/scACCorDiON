@@ -70,7 +70,7 @@ def getGRD(G,weight='weight',normalize=False, degnorm=False, axis=1):
     """
     cond1 = type(G) is not nx.DiGraph
     cond2 = isspmatrix(G)!=True
-    assert(cond1 or cond2, "Please make sure you have the correct input")
+    #assert(cond1 or cond2, "Please make sure you have the correct input")
     if isspmatrix(G)==False:
         G = nx.to_scipy_sparse_array(G)
     X = directed_res(G,weight,normalize,axis)[0]
@@ -174,7 +174,7 @@ def normalizeAdj(G, axis):
         row_sums = np.array(G.sum(axis=1)).flatten()
         row_sums[row_sums == 0] = 1
         G = G.multiply(1 / row_sums[:, np.newaxis])
-    elif normalize and axis==0:
+    elif axis==0:
         sparse_matrix = G.tocsc()
         # Compute column sums
         sums = np.array(sparse_matrix.sum(axis=0)).flatten()
