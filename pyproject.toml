@@ -10,9 +10,11 @@ include = [
 
 
 [tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "82.0.1"
+Cython = "3.2.0"
 scikit-learn = "1.5.2"
 matplotlib = "^3.9.1"
-python = "^3.10"
 seaborn = "0.13.2"
 pot = "^0.9.4"
 rpy2 = "3.5.10"
