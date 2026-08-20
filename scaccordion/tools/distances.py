@@ -32,7 +32,8 @@ def getGRD(G,weight='weight',normalize=False, degnorm=False, axis=1):
         If this is a string, then edge weights will be accessed via the
         edge attribute with this key (that is, the weight of the edge
         joining `u` to `v` will be ``G.edges[u, v][weight]``). If no
-        such edge attribute exists, the weight of the edge is assumed to
+        such edge attributeactl.distances.getCTD(tmp + Aall)
+ exists, the weight of the edge is assumed to
         be one.
         If this is a function, the weight of an edge is the value
         returned by the function. The function must accept exactly three

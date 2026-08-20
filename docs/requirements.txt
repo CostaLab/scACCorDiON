@@ -1,4 +1,14 @@
 myst-parser
 nbsphinx
-sphinx_rtd_theme
+sphinxcontrib-bibtex
 sphinx
+plotly
+sphinx-rtd-size
+gprofiler-official
+sankeyflow
+nbformat
+anndata
+scanpy
+sphinx-design
+sphinx-book-theme
+pygments
