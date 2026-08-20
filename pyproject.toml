@@ -24,7 +24,7 @@ skimpy = ">0.0.14"
 phate = ">=2.0.0"
 scipy = ">1.6.0"
 numpy=">1.24"
-genieclust=">1.1.5"
+genieclust=">1.3.0"
 kmedoids = ">0.5.3.1"
 
 [build-system]
