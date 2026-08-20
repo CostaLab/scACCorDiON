@@ -50,7 +50,7 @@ html_theme = 'sphinx_book_theme'
 html_logo = "_static/logo.png"
 # Specific parameters passed directly to the 'sphinx_book_theme'.
 html_theme_options = {
-    "repository_url": "https://github.com/CostaLab/pyCrossTalkeR",
+    "repository_url": "https://github.com/CostaLab/scACCorDiON",
     "use_repository_button": True,
     "use_download_button": True,
     "use_fullscreen_button": True,
@@ -58,7 +58,7 @@ html_theme_options = {
     "show_toc_level": 4,
     "show_navbar_depth": 2,
     "logo": {
-        "text": "<b>pyCrossTalkeR</b>",
+        "text": "<b>scACCorDiON</b>",
     }
 }
 
