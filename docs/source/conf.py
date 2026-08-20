@@ -27,6 +27,17 @@ extensions = [
     "nbsphinx", ## for jupyter notebook
 ]
 
+
+autosummary_generate = True
+
+# -- BibTeX citation settings
+bibtex_bibfiles = ['references.bib']
+bibtex_default_style = 'alpha'
+
+# Sets the Pygments color scheme.
+pygments_style = 'colorful'
+
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
