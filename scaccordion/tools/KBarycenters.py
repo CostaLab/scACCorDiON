@@ -25,7 +25,7 @@ class KBarycenters:
             # Update centroids
             new_centroids = self._update_centroids(data, distr,cost,reg=reg)
             # Check for convergence
-            if np.alltrue(self.flabels==np.argmin(new_centroids, axis=1)):
+            if np.all(self.flabels==np.argmin(new_centroids, axis=1)):
                 break
             self.centroids = new_centroids
      
